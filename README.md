@@ -47,7 +47,7 @@ This is a very affordable, interesting, and easy to use software that can make y
 
 ## Running and Deploying the Application
 
-* First, you need NodeJS and NPM installed on your machine. After that, you can go ahead and run the following:
+* As a business owner trying to run the app, first, you need NodeJS and NPM installed on your machine. After that, you can go ahead and run the following:
 
 ```
 npm install
@@ -61,6 +61,19 @@ SHEET_CLIENT_EMAIL=<client email from service credential>
 SHEET_PRIVATE_KEY=<service credential private key>
 SHEET_DOC_ID=<sheet id>
 ```
+
+* The App was deployed using Vercel, a cloud platform for static sites and Serverless Functions. You can access the app through the link right below:
+
+    https://palpite-box.patriciacvcosta.vercel.app/
+
+* To deploy the application:
+    - You need to have the code pushed into a Git repo of your choice
+    - Create a Vercel account
+    - Select to "Import Project" > "Import Gir Repository"
+    - Copy and paste the URL from the Git repo
+    - Add a project name as you wish
+    - Add Environment Variables as needed
+    - Hit "Deploy"
 
 
 <!-- #### Installation -->
@@ -77,10 +90,6 @@ SHEET_DOC_ID=<sheet id>
 ---
 
 ## Useful links and resources
-
-* The App was deployed using Vercel, a cloud platform for static sites and Serverless Functions. You can access the app through the link right below:
-
-    https://palpite-box.patriciacvcosta.vercel.app/
 
 * The React Hook Form library was used to validate all inputs, making them required, creating patterns, setting minimum/maximum lenght, and other specifications.
         
