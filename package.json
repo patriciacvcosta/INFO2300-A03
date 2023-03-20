@@ -1,0 +1,26 @@
+{
+  "name": "palpite-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "Patricia Canuto Vieira da Costa",
+  "license": "ISC",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "google-spreadsheet": "^3.0.13",
+    "moment": "^2.27.0",
+    "next": "^9.5.1",
+    "postcss-import": "^12.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.7.2",
+    "swr": "^0.3.2",
+    "tailwindcss": "^1.6.0"
+  }
+}
